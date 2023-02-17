@@ -32,7 +32,7 @@ public class Address {
       city = address.substring(1,address.indexOf(","));
       address = address.substring(address.indexOf(",")+2);
       state = address.substring(0,address.indexOf(" "));
-    
+
 
 
 
@@ -94,4 +94,5 @@ public class Address {
       return  numberOfStreet + " " + nameOfStreet + " " + "Apt " + aptNumber + ", " + city + ", " + state
  + " " + zipCode;
     }
+    public String something()
 }
